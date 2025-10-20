@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registration Form</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+     <form action="registration.php" method="post">
+          <h1>Register</h1>
+          <p>Create your account. It's free and only takes a minute.</p>
+          <div class="input_box">
+               <input type="text" name="first_name" placeholder="First Name" required>
+          </div>
+          <div class="input_box">
+               <input type="text" name="last_name"placeholder="Last Name" required>
+          </div>
+          <div class="input_box">
+               <input type="email" name="email" placeholder="Email Name" required>
+          </div>
+          <div class="input_box">
+               <input type="password" name="password" placeholder="Password " required>
+          </div>
+          <div class="input_box">
+               <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+          </div>
+          <div class="check">
+               <input type="checkbox" name="" id="" required><label>I accept the Terms of Use & Privacy Policy</label>
+          </div>
+          <div class="btn">
+               <button type="submit" name="register">Register Now</button>
+          </div>
+     </form>
+  </div>   
+</body>
+</html>
